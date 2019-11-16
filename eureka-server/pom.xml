@@ -8,7 +8,7 @@
         <version>1.5.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.liupeidong</groupId>
+    <groupId>com.liupeidong.spring</groupId>
     <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka-server</name>
@@ -33,8 +33,13 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <version>1.3.0.RELEASE</version>
         </dependency>
     </dependencies>
 
@@ -43,7 +48,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
+                <version>Dalston.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
