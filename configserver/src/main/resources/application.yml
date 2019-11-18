@@ -1,5 +1,5 @@
 server:
-  port : 8763
+  port : 8181
 
 spring:
   application:
@@ -16,6 +16,6 @@ cloud:
       git:
         uri: https://github.com/Snipermars/JavaLearning
         search-paths: configs
-        username: Snipermars  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+        username: Snipermars #账号密码写真实的快一些我觉得，不使用也能访问有点慢
         password: lpd.com312
 
