@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/testLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/lpd_working/pom.xml" />
       </list>
     </option>
   </component>

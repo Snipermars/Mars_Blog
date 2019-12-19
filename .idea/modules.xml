@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testLogin/testLogin.iml" filepath="$PROJECT_DIR$/testLogin/testLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lpd_working/testLogin (1).iml" filepath="$PROJECT_DIR$/lpd_working/testLogin (1).iml" />
     </modules>
   </component>
 </project>

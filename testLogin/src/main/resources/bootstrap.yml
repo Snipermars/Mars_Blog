@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: crland-oauth-server-psp-local
+---
+spring:
+  profiles: dev,sit,uat,prod
+  cloud:
+    config:
+      discovery:
+        serviceId: hap-config-server
+        enabled: true
+      failFast: true
+server:
+  port: 8010
+  context-path: /oauth
+
+eureka:
+  instance:
+    status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/info
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_DEFAULT_ZONE}
+
+thymeleaf:  # html模板
+  mode: LEGACYHTML5
+  prefix: classpath:/templates/
+  content-type: text/html
+  suffix: .html
