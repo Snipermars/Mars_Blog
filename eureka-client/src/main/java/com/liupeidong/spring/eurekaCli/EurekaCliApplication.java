@@ -26,4 +26,5 @@ public class EurekaCliApplication {
     public String home(@RequestParam(value = "name", defaultValue = "marus") String name) {
         return "hello " + name + " ,i am from port:" + port + "\n" + eurekaUrl;
     }
+    // hotfix Test Message
 }
