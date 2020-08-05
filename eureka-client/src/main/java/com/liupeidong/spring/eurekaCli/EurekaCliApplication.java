@@ -21,6 +21,7 @@ public class EurekaCliApplication {
         // new SpringApplicationBuilder(EurekaCliApplication.class).web(true).run(args);
         SpringApplication.run(EurekaCliApplication.class, args);
     }
+    // just for test
 
     @RequestMapping("/hello")
     public String home(@RequestParam(value = "name", defaultValue = "marus") String name) {
