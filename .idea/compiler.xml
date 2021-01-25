@@ -9,9 +9,8 @@
         <module name="gateway" />
         <module name="eureka-server" />
         <module name="eureka-client" />
-        <module name="testLogin" />
-        <module name="testLogin (1)" />
         <module name="configserver" />
+        <module name="SpringBootWebExample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,12 +18,14 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway" target="1.5" />
+      <module name="SpringBootWebExample" target="1.8" />
       <module name="testLogin" target="1.8" />
       <module name="testLogin (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootWebExample" options="-parameters" />
       <module name="eureka-client" options="" />
       <module name="eureka-server" options="" />
     </option>
